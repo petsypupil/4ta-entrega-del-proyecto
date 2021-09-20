@@ -1,0 +1,17 @@
+footer{
+    background-color: $primary-color;
+    padding: 5%;
+    .footer-lista{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li{
+            list-style-type: none;
+            a{
+                .fab{
+                    color:ghostwhite;
+                }
+            }
+        }
+    }
+}
